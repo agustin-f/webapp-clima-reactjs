@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const WeatherForm = props => {
+const WeatherForm = props => {    
     return(
         <div className="card card-body">
             <form onSubmit={props.getWeather}>

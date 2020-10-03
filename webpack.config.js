@@ -6,6 +6,7 @@ console.log(devMode);
 
 module.exports = {
     entry: [
+        '@babel/polyfill',
         './src/app/index.js'
     ],
     output: {
