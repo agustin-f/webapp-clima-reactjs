@@ -5,7 +5,7 @@ import {WEATHER_KEY} from './keys';
 
 class App extends Component{
 
-    /* declaro el estado de mi aplicacion en un objeto */
+    /* declaro el estado de los datos de la API de mi aplicacion en un objeto */
     state={
         temperature: '',
         description: '',
